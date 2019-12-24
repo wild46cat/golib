@@ -1,3 +1,3 @@
-module github.com/wild46cat/golib
+module golib
 
 go 1.13
