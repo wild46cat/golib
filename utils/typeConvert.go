@@ -33,15 +33,3 @@ func I64ToS(i int64) string {
 func IToS(i int) string {
 	return strconv.Itoa(i)
 }
-
-func SToI(s string, defaultValue ...int) int {
-	res, err := strconv.Atoi(s)
-	if err != nil {
-		if len(defaultValue) > 0 {
-			return defaultValue[0]
-		} else {
-			return 0
-		}
-	}
-	return res
-}
