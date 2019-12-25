@@ -29,3 +29,7 @@ func SToI(s string, defaultValue ...int) int {
 func I64ToS(i int64) string {
 	return strconv.FormatInt(i, 10)
 }
+
+func IToS(i int) string {
+	return strconv.Itoa(i)
+}
