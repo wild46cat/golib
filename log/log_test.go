@@ -6,5 +6,6 @@ import (
 
 func TestDoSome(t *testing.T) {
 	Warning.Println("adffdf")
+	Warning.Println("adffdf")
 	Warning.Printf("%v %v", "abc", "bbb")
 }
